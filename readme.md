@@ -1,11 +1,11 @@
 #What is it good for?
-These two scripts allow you to convert single-language inline manual topics into muliple topics for each language your application supports:
+These two scripts allow you to convert single-language inline manual topics into multiple topics for each language your application supports:
 
 1.  convertToPOEditor.py - converts files formatted by inline manual into files ready to upload into POEditor (.json -> .json)
 2.  convertToINM.py -  converts files formatted by POEditor into files ready to upload into Inline Manual (.json -> .json)
 
 #How do I use it?
-Watch this video for an overview of the entire process:
+Watch this video for an overview of the entire process: https://drive.google.com/file/d/0Bz3_ufw2DHLAOW1pMlVYLXI0cHc/view?usp=sharing
 
 Here are the steps (most taken from: https://inlinemanual.zendesk.com/hc/en-us/articles/206420473-Translation-workflow):
 
