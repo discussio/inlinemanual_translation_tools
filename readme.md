@@ -46,9 +46,8 @@ After that, you'll have to call your translated topic from the javascript or url
     
         // in case there is no translated version of topic
         var origLang = <?php echo '"' . I18N::getLanguageISO2() . '"' ?>;
-        inline_manual_player.setLanguage("en");
+        inline_manual_player.setLanguage("en"); // language does not get reset until page reloads
         inline_manual_player.activateTopic(topic_id);
-        inline_manual_player.setLanguage(origLang);
         return topic_id;
     
     }
